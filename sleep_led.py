@@ -23,5 +23,7 @@ try:
             time.sleep(0.0272)
 except KeyboardInterrupt:
     pass
-p.stop()
+
+LED.stop()
+
 GPIO.cleanup()
